@@ -894,9 +894,9 @@ typedef struct lws_humanize_unit {
 	uint64_t factor;
 } lws_humanize_unit_t;
 
-LWS_VISIBLE LWS_EXTERN const lws_humanize_unit_t humanize_schema_si[];
-LWS_VISIBLE LWS_EXTERN const lws_humanize_unit_t humanize_schema_si_bytes[];
-LWS_VISIBLE LWS_EXTERN const lws_humanize_unit_t humanize_schema_us[];
+LWS_VISIBLE LWS_EXTERN /*const*/ lws_humanize_unit_t humanize_schema_si[];
+LWS_VISIBLE LWS_EXTERN /*const*/ lws_humanize_unit_t humanize_schema_si_bytes[];
+LWS_VISIBLE LWS_EXTERN /*const*/ lws_humanize_unit_t humanize_schema_us[];
 
 /**
  * lws_humanize() - Convert possibly large number to himan-readable uints
